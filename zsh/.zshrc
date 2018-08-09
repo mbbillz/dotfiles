@@ -13,9 +13,7 @@ alias ls='ls -G -a -l'
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 plugins=(git colorize bundler)
 
-export PATH=/Applications/MAMP/bin/php/php7.1.6/bin:$PATH
-export PATH='/Users/millybillins/.platformsh/bin':"$PATH"
-# [ "$BASH" ] || [ "$ZSH" ] && . '/Users/millybillins/.platformsh/shell-config.rc' 2>/dev/null || true
+# Node
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
