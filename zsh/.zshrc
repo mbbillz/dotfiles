@@ -74,3 +74,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time vcs background_jobs_j
 
 source  ~/powerlevel9k/powerlevel9k.zsh-theme
 
+# BEGIN SNIPPET: Platform.sh CLI configuration
+HOME=${HOME:-'/Users/millybillins'}
+export PATH="$HOME/"'.platformsh/bin':"$PATH"
+if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
