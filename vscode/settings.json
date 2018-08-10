@@ -1,83 +1,61 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": -1,
-    "explorer.autoReveal": false,
-    "stylelint.enable": true,
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true,
-    "css.validate": false,
-    "scss.validate": false,
-    "explorer.confirmDragAndDrop": false,
-    "extensions.ignoreRecommendations": false,
-    "[html]": {},
-    "files.associations": {
-      "*.heml": "html"
-    },
-    "explorer.confirmDelete": false,
-    "prettier.singleQuote": true,
-    "beautify.language": {
-      "js": {
-        "type": [
-          "javascript",
-          "json"
-        ],
-        "filename": [
-          ".jshintrc",
-          ".jsbeautify"
-        ]
-      },
-      "css": [
-        "css",
-        "scss"
-      ],
-      "html": [
-        "htm",
-        "html",
-        "php",
-        "blade.php"
-      ]
-    },
-    "workbench.colorCustomizations": {
-      "activityBar.background": "#26292C",
-      "activityBarBadge.background": "#36a3d9",
-      "button.background": "#36a3d9",
-      "editor.lineHighlightBackground": "#1A1D20",
-      "editor.lineHighlightBorder": "#5a5a5a",
-      "editor.selectionBackground": "#5a5a5a",
-      "editorCursor.foreground": "#ff953f",
-      "editorGroupHeader.tabsBackground": "#1A1D20",
-      "editorWhitespace.foreground": "#ffffff1e",
-      "list.activeSelectionBackground": "#5a5a5a",
-      "list.activeSelectionForeground": "#ff953f",
-      "list.focusBackground": "#4b4b4b",
-      "list.focusForeground": "#F8F8F0",
-      "list.highlightForeground": "#ff953f",
-      "list.hoverBackground": "#26292C",
-      "list.hoverForeground": "#F8F8F0",
-      "list.inactiveFocusBackground": "#36a3d9",
-      "list.inactiveSelectionBackground": "#26292C",
-      "list.inactiveSelectionForeground": "#ff953f",
-      "progressBar.background": "#36a3d9",
-      "sideBar.background": "#1A1D20",
-      "sideBar.border": "#26292C",
-      "sideBarSectionHeader.background": "#5a5a5a",
-      "sideBarSectionHeader.foreground": "#F8F8F0",
-      "statusBar.background": "#1A1D20",
-      "statusBar.noFolderBackground": "#1A1D20",
-      "tab.activeBorder": "#66D9EF",
-      "tab.inactiveBackground": "#1A1D20",
-      "titleBar.activeBackground": "#1A1D20",
-      "titleBar.inactiveForeground": "#e2e2e2",
-      "editor.background": "#181818",
-      "editor.foreground": "#F8F8F2"
-    },
-    "editor.tokenColorCustomizations": {
-      "comments": "#5e6e75",
-      "strings": "#e1a196",
-      "numbers": "#7ecbd8",
-      "variables": "#b9dfe9",
-      "functions": "#e6dfb9",
-      "types": "#00ffb3"
-    }
+  "window.zoomLevel": -1,
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.startupEditor": "welcomePage",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#26292C",
+    "activityBarBadge.background": "#36a3d9",
+    "button.background": "#36a3d9",
+    "editor.lineHighlightBackground": "#1A1D20",
+    "editor.lineHighlightBorder": "#5a5a5a",
+    "editor.selectionBackground": "#5a5a5a",
+    "editorCursor.foreground": "#ff953f",
+    "editorGroupHeader.tabsBackground": "#1A1D20",
+    "editorWhitespace.foreground": "#ffffff1e",
+    "list.activeSelectionBackground": "#5a5a5a",
+    "list.activeSelectionForeground": "#ff953f",
+    "list.focusBackground": "#4b4b4b",
+    "list.focusForeground": "#F8F8F0",
+    "list.highlightForeground": "#ff953f",
+    "list.hoverBackground": "#26292C",
+    "list.hoverForeground": "#F8F8F0",
+    "list.inactiveFocusBackground": "#36a3d9",
+    "list.inactiveSelectionBackground": "#26292C",
+    "list.inactiveSelectionForeground": "#ff953f",
+    "progressBar.background": "#36a3d9",
+    "sideBar.background": "#1A1D20",
+    "sideBar.border": "#26292C",
+    "sideBarSectionHeader.background": "#5a5a5a",
+    "sideBarSectionHeader.foreground": "#F8F8F0",
+    "statusBar.background": "#1A1D20",
+    "statusBar.noFolderBackground": "#1A1D20",
+    "tab.activeBorder": "#66D9EF",
+    "tab.inactiveBackground": "#1A1D20",
+    "titleBar.activeBackground": "#1A1D20",
+    "titleBar.inactiveForeground": "#e2e2e2",
+    "editor.background": "#181818",
+    "editor.foreground": "#F8F8F2"
+  },
+  "editor.renderWhitespace": "none",
+  "editor.insertSpaces": false,
+  "editor.tokenColorCustomizations": {
+    "comments": "#5e6e75",
+    "strings": "#e1a196",
+    "numbers": "#7ecbd8",
+    "variables": "#b9dfe9",
+    "functions": "#e6dfb9",
+    "types": "#00ffb3"
+  },
+  "eslint.autoFixOnSave": true,
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.heml": "html"
   }
+}
