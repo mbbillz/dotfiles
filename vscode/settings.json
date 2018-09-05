@@ -39,7 +39,9 @@
     "editor.foreground": "#F8F8F2"
   },
   "editor.renderWhitespace": "none",
-  "editor.insertSpaces": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
   "editor.tokenColorCustomizations": {
     "comments": "#5e6e75",
     "strings": "#e1a196",
@@ -55,6 +57,7 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
+  "yaml.format.enable": true,
   "files.associations": {
     "*.heml": "html"
   }

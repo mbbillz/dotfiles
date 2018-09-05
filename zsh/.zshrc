@@ -8,8 +8,25 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Custom
+# Custom Aliases
+
+# System
 alias ls='ls -G -a -l'
+alias ..='cd ..'
+
+# Git
+alias gs='git status'
+alias gc='git checkout'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gm='git merge'
+alias gb='git branch'
+alias gfi='git flow init'
+alias gfh='git flow hotfix start'
+alias gfs='git flow feature start'
+alias gff='git flow feature finish'
+
+# Plugins
 source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 plugins=(git colorize bundler)
 
