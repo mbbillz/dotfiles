@@ -25,7 +25,7 @@ alias gf='git fetch'
 alias gm='git merge'
 alias gb='git branch'
 alias gfi='git flow init'
-alias gfh='git flow hotfix start'
+alias ghs='git flow hotfix start'
 alias gfs='git flow feature start'
 alias gff='git flow feature finish'
 

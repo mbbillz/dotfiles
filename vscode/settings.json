@@ -50,13 +50,13 @@
     "functions": "#e6dfb9",
     "types": "#00ffb3"
   },
-  "eslint.autoFixOnSave": true,
   "[scss]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[javascript]": {
     "editor.formatOnSave": true
   },
+  "eslint.autoFixOnSave": true,
   "yaml.format.enable": true,
   "files.associations": {
     "*.heml": "html"
