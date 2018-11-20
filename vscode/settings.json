@@ -58,7 +58,16 @@
   },
   "eslint.autoFixOnSave": true,
   "yaml.format.enable": true,
+  "yaml.format.proseWrap": "always",
   "files.associations": {
     "*.heml": "html"
-  }
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "package-lock.json": true,
+    "**/.*": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "breadcrumbs.enabled": true
 }
