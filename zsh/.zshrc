@@ -31,12 +31,10 @@ alias gfs='git flow feature start'
 alias gff='git flow feature finish'
 
 # Plugins
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 plugins=(git colorize bundler)
 
-# Node
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+source $ZSH/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
 
 POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
@@ -90,10 +88,3 @@ POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='green'
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir dir_writable_joined)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time vcs background_jobs_joined time_joined)
-
-source  ~/powerlevel9k/powerlevel9k.zsh-theme
-
-# BEGIN SNIPPET: Platform.sh CLI configuration
-HOME=${HOME:-'/Users/millybillins'}
-export PATH="$HOME/"'.platformsh/bin':"$PATH"
-if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
