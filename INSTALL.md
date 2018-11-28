@@ -1,4 +1,4 @@
-# Fresh Mac Installation ToDo
+# Fresh OSX Installation Checklist 😎
 
 ### User preferences
 
@@ -23,7 +23,11 @@
 
 `xcode-select --install`
 
-### Fancy terminal setup 
+### Terminal setup 
+
+- [ ] Install powerline font from dotfiles
+- [ ] Choose font in iTerm preferences - Meslo
+- [ ] Apply iTerm colour theme from dotfiles
 
 ```
 # Install Homebrew
@@ -47,11 +51,7 @@ rm ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
-Install powerline font from dotfiles
-Choose font in iTerm preferences
-iTerm colour theme
-
-### Actual dev stuff
+### Actual dev stuff - todo
 ```
 # Install dev stuff
 brew install ... [TBC]
@@ -61,7 +61,7 @@ brew cask install google-chrome
 brew cask install visual-studio-code
 ```
 
-### Design stuff
+### Design stuff - todo
 ```
 brew cask install sketch
 brew cask install adobe-creative-cloud
