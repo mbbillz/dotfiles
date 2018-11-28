@@ -4,38 +4,13 @@ export ZSH=/Users/millybillins/.oh-my-zsh
 # Plugins
 plugins=(
   git
+  colorize
+  bundler
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# Custom Aliases
-
-# System
-alias ls='ls -G -a -l'
-alias ..='cd ..'
-
-# Git
-alias gs='git status'
-alias gc='git checkout'
-alias ga='git add'
-alias gcm='git commit -m'
-alias gps='git push'
-alias gpss='git push --set-upstream origin'
-alias gpl='git pull'
-alias gf='git fetch'
-alias gm='git merge'
-alias gb='git branch'
-alias gfi='git flow init'
-alias ghs='git flow hotfix start'
-alias gfs='git flow feature start'
-alias gff='git flow feature finish'
-
-# Plugins
-source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-plugins=(git colorize bundler)
-
-source $ZSH/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
-
+# Powerlevel Config - must come before source!
 POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 # POWERLEVEL9K_SHORTEN_DELIMITER=''
@@ -88,3 +63,27 @@ POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='green'
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir dir_writable_joined)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time vcs background_jobs_joined time_joined)
+
+# Custom ZSH Themes and Plugins
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
+
+# System Aliases
+alias ls='ls -G -a -l'
+alias ..='cd ..'
+
+# Git Aliases
+alias gs='git status'
+alias gc='git checkout'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gps='git push'
+alias gpss='git push --set-upstream origin'
+alias gpl='git pull'
+alias gf='git fetch'
+alias gm='git merge'
+alias gb='git branch'
+alias gfi='git flow init'
+alias ghs='git flow hotfix start'
+alias gfs='git flow feature start'
+alias gff='git flow feature finish'
