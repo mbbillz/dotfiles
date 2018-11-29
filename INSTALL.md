@@ -51,26 +51,38 @@ rm ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
-### General software
+### General
 ```
 # Install general software
 brew cask install google-chrome
+brew cask install franz
 ```
 
-- [ ] Google chrome setup:
-  - Import bookmarks from Drive
-  - Install extensions:
-    - Muzli
+##### Google chrome setup:
+- [ ] Sign in & sync
+- [ ] Theme - Material Incognito Dark Theme
+- [ ] Devtools theme - dark
+- [ ] Import bookmarks from Drive
+- [ ] Install extensions:
+  - Muzli
+  - React dev tools
+  - I don't care about cookies
+  - LastPass
 
-### Dev software
+### Dev
 ```
-# Install dev software
+# Install VS Code
 brew cask install visual-studio-code
-brew install ... [TBC]
+rm ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+# Node
+brew install nvm
 ```
 
-### Design stuff - todo
+### Design
 ```
 brew cask install sketch
 brew cask install adobe-creative-cloud
+open /usr/local/Caskroom/adobe-creative-cloud/latest/Creative\ Cloud\ Installer.app
 ```
