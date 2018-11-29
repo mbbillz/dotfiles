@@ -51,14 +51,22 @@ rm ~/.zshrc
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 
-### Actual dev stuff - todo
+### General software
 ```
-# Install dev stuff
-brew install ... [TBC]
-
-# Install software
+# Install general software
 brew cask install google-chrome
+```
+
+- [ ] Google chrome setup:
+  - Import bookmarks from Drive
+  - Install extensions:
+    - Muzli
+
+### Dev software
+```
+# Install dev software
 brew cask install visual-studio-code
+brew install ... [TBC]
 ```
 
 ### Design stuff - todo
