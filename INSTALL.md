@@ -78,6 +78,7 @@ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 
 # Node
 brew install nvm
+mkdir ~/.nvm
 ```
 
 ### Design
