@@ -10,6 +10,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Node
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+
 # Powerlevel Config - must come before source!
 POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
