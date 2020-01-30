@@ -80,6 +80,7 @@ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 brew install nvm
 mkdir ~/.nvm
 nvm install node
+brew install git-flow
 ```
 
 ### Design
