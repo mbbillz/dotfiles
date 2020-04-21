@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -64,10 +64,18 @@
   },
   "files.exclude": {
     "node_modules": true,
-    "package-lock.json": true,
-    "**/.*": true
+    "package-lock.json": true
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.wordWrap": "on",
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.wordWrapColumn": 65,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "timeline.excludeSources": [
+    "git-history"
+  ]
 }
