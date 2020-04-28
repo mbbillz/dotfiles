@@ -59,6 +59,7 @@ brew cask install franz
 brew cask install spotify
 brew cask install postman
 brew cask install firefox
+brew cask install google-drive-file-stream
 ```
 
 ##### Google chrome setup:
