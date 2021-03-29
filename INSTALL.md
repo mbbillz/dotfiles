@@ -56,6 +56,10 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 # Install general software
 brew cask install google-chrome
 brew cask install franz
+brew cask install spotify
+brew cask install postman
+brew cask install firefox
+brew cask install google-drive-file-stream
 ```
 
 ##### Google chrome setup:
@@ -67,7 +71,7 @@ brew cask install franz
   - Muzli
   - React dev tools
   - I don't care about cookies
-  - LastPass
+  - BitWarden
 
 ### Dev
 ```
