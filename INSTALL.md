@@ -55,7 +55,7 @@ ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ```
 # Install general software
 brew cask install google-chrome
-brew cask install franz
+brew cask install ferdi
 brew cask install spotify
 brew cask install postman
 brew cask install firefox
@@ -66,7 +66,7 @@ brew cask install google-drive-file-stream
 - [ ] Sign in & sync
 - [ ] Theme - Material Incognito Dark Theme
 - [ ] Devtools theme - dark
-- [ ] Import bookmarks from Drive
+- [ ] Import bookmarks
 - [ ] Install extensions:
   - Muzli
   - React dev tools
