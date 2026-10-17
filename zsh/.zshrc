@@ -10,11 +10,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Node
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
-
 # Powerlevel Config - must come before source!
 POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
@@ -94,3 +89,7 @@ alias gffs='git flow feature start'
 alias gfff='git flow feature finish'
 alias gfrs='git flow release start'
 alias gfrf='git flow release finish'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"       # Load nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Load nvm bash_completion
